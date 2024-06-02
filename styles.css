@@ -1,0 +1,89 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8a2be2; /* Blue violet */
+    color: white; /* Change text color to white for better contrast */
+}
+
+/* Header styles */
+header {
+    background-color: #8a2be2; /* Blue violet */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+}
+
+.player-story {
+    background-color: #e6e6fa; /* Lavender */
+    border-radius: 15px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 4px 8px rgba(75, 0, 130, 0.1); /* Shadow with indigo color */
+    display: flex;
+    align-items: center;
+}
+ 
+.player-photo-container {
+    background: linear-gradient(135deg, #2f2f2f, #696969); /* Gray and black mixed theme */
+    padding: 5px;
+    margin-right: 1em;
+}
+
+.player-photo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    transition: transform 0.3s;
+}
+
+
+.player-photo {
+    width: 160px;
+    height: 220px;
+    border-radius: 0px;
+    margin-right: 1em;
+    float: left;
+    transition: transform 0.3s;
+}
+
+.player-photo:hover {
+    transform: scale(1.1);
+}
+
+.player-details {
+    background: linear-gradient(135deg, #2f2f2f, #696969); /* Gray and black mixed theme */
+    border-radius: 15px;
+    padding: 1em;
+    color: white; /* Ensure text is readable on dark background */
+}
+
+h2 {
+    color: #ffffff; /* White text for better contrast */
+}
+
+p {
+    color: #d3d3d3; /* Light gray text for better readability */
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #8a2be2; /* Blue violet */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
